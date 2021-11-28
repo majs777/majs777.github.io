@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Welcome | Home</title>
+</head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QPFTEX1NBD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QPFTEX1NBD');
+</script>
+
+<body>  <!-- class="show-sidebar" class="no-scroll" -->
+<!-- при открытии модального окна, убрать скролл -->
+
+    <div class="page" id="page">
+        <header class="header">
+           <!-- left -->
+           <div class="header__left">
+              <nav class="nav">
+                 <!-- nav list -->
+                 <ul class="nav__list">
+                    <li class="nav__item"> 
+                       <a href="index.html" class="nav__link">Главная</a>  
+                    </li>
+        
+                    <li class="nav__item"> <!-- родитель эл. ul -->
+        
+                       <!-- поBEM  nav__link--has-subnav-->
+                       <a href="#" class="nav__link has-subnav">Статьи</a>  
+                       
+                       <!-- выпадающее менУ -->
+                       <ul class="subnav">
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория Категория Категория 1</a>
+                          </li>
+        
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория 2</a>
+                          </li>
+        
+                          <li class="subnav__item subnav__item--border">
+                          <!-- пример модификатора -->
+                             <a class="subnav__link" href="#">Категория 3</a>
+                          </li>
+                       </ul>
+        
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="about_company.html" class="nav__link">О компании</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="advertising.html" class="nav__link">Реклама</a>  
+                    </li>
+                 </ul>
+              </nav>
+        
+              <!-- burger -->
+                 <button class="burger" id="burger" type="button">
+                    <span></span>
+                 </button>
+              <!-- /.burger -->
+           </div>
+        
+           <!-- right -->
+           <div class="header__right">
+              <nav class="nav">
+                 <ul class="nav__list">
+                    <li class="nav__item">
+                       <a href="profile.html" class="nav__link">Профиль</a>
+                    </li>
+                 </ul>
+              </nav>
+        
+              <form class="search" action="search.html" method="GET">
+                 <input class="search__input" type="text" placeholder="Поиск по сайту">
+              </form>
+           </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+           <div class="sidebar__header">
+              <img src="./assets/images/background_2.jpg" alt="">
+           </div>
+        
+           <!--  sidebar__content  -->
+           <div class="sidebar__content">
+              <!--  profile  -->
+              <div class="profile">
+                 <img class="profile__avatar" src="./assets/images/logo.jpg" alt="">
+                 <div class="profile__header">
+                    <div class="profile__name">Шальная Императрица</div>
+                    <div class="profile__prof">туристическое агенство</div>   
+                 </div>
+        
+                 <ul class="social">
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/instagram .svg" alt="instagram">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/pinterest.svg" alt="instagram">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/vk.svg" alt="instagram">
+                       </a>
+                    </li>
+                 </ul>
+        
+                 <div class="profile__text">
+                    <p>Путешествия меняют нас, помогают нам расти и развиваться. Путешествия – это лучшее образование современного мира!</p>
+                 </div>
+              </div>   <!-- /.profile -->
+        
+              <!-- mobile-nav -->
+              <nav class="nav nav--mobile">
+                 <!-- nav list -->
+                 <ul class="nav__list">
+                    <li class="nav__item"> 
+                       <a href="index.html" class="nav__link">Главная</a>  
+                    </li>
+        
+                    <li class="nav__item"> <!-- родитель эл. ul -->
+        
+                       <!-- поBEM  nav__link--has-subnav-->
+                       <a href="#" class="nav__link has-subnav">Статьи</a>  
+                       
+                       <!-- выпадающее менУ -->
+                       <ul class="subnav">
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория Категория Категория 1</a>
+                          </li>
+        
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория 2</a>
+                          </li>
+        
+                          <li class="subnav__item subnav__item--border">
+                          <!-- пример модификатора -->
+                             <a class="subnav__link" href="#">Категория 3</a>
+                          </li>
+                       </ul>
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="about_company.html" class="nav__link">О компании</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="advertising.html" class="nav__link">Реклама</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="profile.html" class="nav__link">Профиль</a>
+                    </li>
+                 </ul>
+              </nav>
+              <!-- /.mobile-nav -->
+           </div>   <!-- /.sidebar__content -->
+        
+           <!--  sidebar__footer  -->
+           <div class="sidebar__footer">
+              <a class="btn btn--red" href="works.html">Горящие туры</a>
+              <button class="btn btn--blue" type="button" data-modal="contact-modal">Связаться с нами</button>
+           </div>
+        </aside>
+        <main class="main">
+            <div class="container">
+                
+                <!-- плагин gulp panini
+                шаблон + заглавие страницы -->
+                
+                <!-- содержимое уходит в body -->
+                
+                <!-- stories -->
+                <div class="stories">
+                   <!-- делаем гридами -->
+                   <!-- item 1 -->
+                   <div class="stories__item"> <!-- data-modal="story-modal" -->
+                      <img class="stories__preview"
+                       src="assets/images/stories/stories_1.jpg" alt="">
+                      <div class="stories__title">Бюджетный отдых в Хургаде. </br> Все включено! </br> 6 ночей</div>
+                      <time class="stories__data" datetime="2012-12-12 12:12">
+                         01.12.2021
+                      </time>
+                   </div>
+                   <!-- item 2 -->
+                   <div class="stories__item">
+                      <img class="stories__preview"
+                       src="assets/images/stories/stories_2.jpg" alt="">
+                      <div class="stories__title">Бюджетный тур в Сиде. </br> Все включено! </br> 7 ночей</div>
+                      <time class="stories__data" datetime="2012-12-12 12:12">
+                         07.12.2021
+                      </time>
+                   </div>
+                   <!-- item 3 -->
+                   <div class="stories__item">
+                      <img class="stories__preview"
+                       src="assets/images/stories/stories_3.jpg" alt="">
+                      <div class="stories__title">Отель в Шардже, недалеко от пляжа </br> 6 ночей</div>
+                      <time class="stories__data" datetime="2012-12-12 12:12">
+                         16.12.2021
+                      </time>
+                   </div>
+                   <!-- item 4 -->
+                   <div class="stories__item">
+                      <img class="stories__preview"
+                       src="assets/images/stories/stories_4.jpg" alt="">
+                      <div class="stories__title">Активный отдых в Энкампе, Андорра. Встретьте новый год и получите незабываемые эмоции. </br> 6 ночей</div>
+                      <time class="stories__data" datetime="2012-12-12 12:12">
+                         27.12.2021
+                      </time>
+                   </div>
+                </div> <!-- /.stories -->
+                
+                <!-- add-post -->
+                <div class="add-post">
+                   <form class="add-post__form" action="/" method="POST">
+                      
+                      <textarea class="add-post__textarea" name="post-text" placeholder="Напишите что-нибудь" data-autoresize></textarea>
+                
+                      <div class="add-post__form-actions">
+                         <label class="add-post__label" for="">
+                            <input type="file" id="add-post-file">
+                         </label>
+                
+                         <button class="add-post__send" type="submit">
+                            <img src="assets/images/add-post/send.svg" alt="Отправить">
+                         </button>
+                      </div>
+                      
+                   </form>
+                </div> <!-- /.add-post -->
+                
+                <!-- post -->
+                <div class="post">
+                   <div class="post__content">
+                      <div class="post__description">
+                
+                         <h1 class="post__title post__title--mb">Путешествия – главный источник вдохновения</h1>
+                         
+                         <div class="post__description">
+                            Новые места, как лучик солнца в кромешной темноте, открывают доселе невиданные перспективы. Благодаря путешествиям мы понимаем, что жизнь гораздо шире, чем привычные, такие будничные, но очень нужные дела. Это не просто очередная поездка или отпуск, а заветная мечта, ежедневные открытия, знакомства с интересными 
+                            людьми, новые знания, рост, постоянное движение вперед.
+                         </div>
+                      </div> 
+                   </div>
+                
+                   <div class="post__footer">
+                      <ul class="post__data">
+                         <li class="post__data-item">
+                            <time datetime="2021-03-13 20:00">
+                               28.11.2021
+                            </time>
+                         </li>
+                      </ul>
+                   </div>
+                </div> <!-- /.post -->
+                
+                <!-- post -->
+                <div class="post">
+                
+                   <div class="post__header post__header--img">
+                      <a href="slovenia.html">
+                         <img class="post__img" src="assets/images/slovenia.jpg" alt="post">
+                      </a>
+                   </div>
+                
+                   <div class="post__content">
+                      <h2 class="post__title">
+                         <a href="slovenia.html">Горнолыжные курорты Словении
+                         </a>
+                      </h2>
+                
+                      <div class="post__description">
+                         Словения — государство, расположенное между Италией, Хорватией и Венгрией. Венецианский залив Адриатического моря омывает небольшую часть ее территории. Столицей государства является город Любляна. <br><br>
+                
+                         В Словении много деревьев и зелени, поэтому воздух здесь невероятно чистый. Площадь целого государства равна площади Московской области, но в нем всегда гармонично сочетались традиции и особенности Альпийского, Центрально-европейского и Средиземноморского регионов.
+                      </div>    
+                   </div>
+                
+                   <div class="post__footer">
+                      <ul class="post__data">
+                         <li class="post__data-item">
+                            <time datetime="2021-03-13 20:00">
+                               25.11.2021
+                            </time>
+                         </li>
+                      </ul>
+                
+                      <a class="post__read" href="slovenia.html">читать</a>
+                   </div>
+                </div> <!-- /.post -->
+                
+                
+                
+            </div>
+        </main>
+    </div>
+
+
+    <div class="modal" id="story-modal">
+       <div class="modal__content modal__content--story">
+          <video class="modal__video" src="" poster="https://placehold.it/430x590"></video>
+       </div>
+    </div>    <div class="modal" id="contact-modal">
+       <div class="modal__content">
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+    
+          <form class="form" action="/" method="POST">
+             
+             <div class="form__group form__group--mb">
+                <input class="form__control" type="text" placeholder="Ваш e-mail" value="">
+                <span class="form__divider"></span>
+             </div>
+       
+             <!-- <div class="form__group form__group--mb">
+                <input class="form__control" type="email" placeholder="Ваш пароль" value="">
+                <span class="form__divider"></span>
+             </div> -->
+    
+             <div class="form__group form__group--mb">
+                <textarea class="form__control form__control--textarea" name="send text" placeholder="Текст сообщения"></textarea>
+                <span class="form__divider"></span>
+             </div>
+    
+             <div class="form__group">
+                <button class="btn btn--blue btn--comment btn--mb" type="submit">Отправить</button>
+             </div>
+          </form>
+    
+          <ul class="modal__footer">
+             <li class="modal__link">
+                e-mail: <a href="mailto:info@mywebsite.ru">borderless_world@gmail.com</a>
+             </li>
+             <li class="modal__link">
+                тел: <a href="tel: +380998887777">+380-99-888-77-77</a>
+             </li>
+          </ul>
+       </div> <!-- /.modal__content -->
+    </div> <!-- /.modal -->    <div class="modal" id="contact-modal-works">
+       <div class="modal__content">
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+    
+          <form class="form" action="/" method="POST">
+             
+             <div class="form__group form__group--mb">
+                <input class="form__control" type="text" placeholder="Ваш e-mail" value="">
+                <span class="form__divider"></span>
+             </div>
+       
+             <!-- <div class="form__group form__group--mb">
+                <input class="form__control" type="email" placeholder="Ваш пароль" value="">
+                <span class="form__divider"></span>
+             </div> -->
+    
+             <div class="form__group form__group--mb">
+                <textarea class="form__control form__control--textarea" name="send text" placeholder="Ваш номер телефона"></textarea>
+                <span class="form__divider"></span>
+             </div>
+    
+             <div class="form__group">
+                <button class="btn btn--blue btn--comment btn--mb" type="submit">Отправить</button>
+             </div>
+          </form>
+    
+          <ul class="modal__footer">
+             <li class="modal__link">
+                e-mail: <a href="mailto:info@mywebsite.ru">borderless_world@gmail.com</a>
+             </li>
+             <li class="modal__link">
+                тел: <a href="tel: +94323285622">+380-99-888-77-77</a>
+             </li>
+          </ul>
+       </div> <!-- /.modal__content -->
+    </div> <!-- /.modal -->    <div class="modal">
+       <div class="modal__content modal__content--share">
+    
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+       
+          <!-- share styles in modal -->
+          <ul class="share">
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/facebook.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/twitter.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/vk.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/copy.svg" alt="share-social">
+                </a>
+             </li>
+          </ul>
+    
+       </div> <!-- modal__content -->
+    </div> <!-- /.modal -->
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

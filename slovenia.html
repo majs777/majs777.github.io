@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>post</title>
+</head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QPFTEX1NBD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QPFTEX1NBD');
+</script>
+
+<body>  <!-- class="show-sidebar" class="no-scroll" -->
+<!-- при открытии модального окна, убрать скролл -->
+
+    <div class="page" id="page">
+        <header class="header">
+           <!-- left -->
+           <div class="header__left">
+              <nav class="nav">
+                 <!-- nav list -->
+                 <ul class="nav__list">
+                    <li class="nav__item"> 
+                       <a href="index.html" class="nav__link">Главная</a>  
+                    </li>
+        
+                    <li class="nav__item"> <!-- родитель эл. ul -->
+        
+                       <!-- поBEM  nav__link--has-subnav-->
+                       <a href="#" class="nav__link has-subnav">Статьи</a>  
+                       
+                       <!-- выпадающее менУ -->
+                       <ul class="subnav">
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория Категория Категория 1</a>
+                          </li>
+        
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория 2</a>
+                          </li>
+        
+                          <li class="subnav__item subnav__item--border">
+                          <!-- пример модификатора -->
+                             <a class="subnav__link" href="#">Категория 3</a>
+                          </li>
+                       </ul>
+        
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="about_company.html" class="nav__link">О компании</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="advertising.html" class="nav__link">Реклама</a>  
+                    </li>
+                 </ul>
+              </nav>
+        
+              <!-- burger -->
+                 <button class="burger" id="burger" type="button">
+                    <span></span>
+                 </button>
+              <!-- /.burger -->
+           </div>
+        
+           <!-- right -->
+           <div class="header__right">
+              <nav class="nav">
+                 <ul class="nav__list">
+                    <li class="nav__item">
+                       <a href="profile.html" class="nav__link">Профиль</a>
+                    </li>
+                 </ul>
+              </nav>
+        
+              <form class="search" action="search.html" method="GET">
+                 <input class="search__input" type="text" placeholder="Поиск по сайту">
+              </form>
+           </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+           <div class="sidebar__header">
+              <img src="./assets/images/background_2.jpg" alt="">
+           </div>
+        
+           <!--  sidebar__content  -->
+           <div class="sidebar__content">
+              <!--  profile  -->
+              <div class="profile">
+                 <img class="profile__avatar" src="./assets/images/logo.jpg" alt="">
+                 <div class="profile__header">
+                    <div class="profile__name">Шальная Императрица</div>
+                    <div class="profile__prof">туристическое агенство</div>   
+                 </div>
+        
+                 <ul class="social">
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/instagram .svg" alt="instagram">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/pinterest.svg" alt="instagram">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/vk.svg" alt="instagram">
+                       </a>
+                    </li>
+                 </ul>
+        
+                 <div class="profile__text">
+                    <p>Путешествия меняют нас, помогают нам расти и развиваться. Путешествия – это лучшее образование современного мира!</p>
+                 </div>
+              </div>   <!-- /.profile -->
+        
+              <!-- mobile-nav -->
+              <nav class="nav nav--mobile">
+                 <!-- nav list -->
+                 <ul class="nav__list">
+                    <li class="nav__item"> 
+                       <a href="index.html" class="nav__link">Главная</a>  
+                    </li>
+        
+                    <li class="nav__item"> <!-- родитель эл. ul -->
+        
+                       <!-- поBEM  nav__link--has-subnav-->
+                       <a href="#" class="nav__link has-subnav">Статьи</a>  
+                       
+                       <!-- выпадающее менУ -->
+                       <ul class="subnav">
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория Категория Категория 1</a>
+                          </li>
+        
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория 2</a>
+                          </li>
+        
+                          <li class="subnav__item subnav__item--border">
+                          <!-- пример модификатора -->
+                             <a class="subnav__link" href="#">Категория 3</a>
+                          </li>
+                       </ul>
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="about_company.html" class="nav__link">О компании</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="advertising.html" class="nav__link">Реклама</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="profile.html" class="nav__link">Профиль</a>
+                    </li>
+                 </ul>
+              </nav>
+              <!-- /.mobile-nav -->
+           </div>   <!-- /.sidebar__content -->
+        
+           <!--  sidebar__footer  -->
+           <div class="sidebar__footer">
+              <a class="btn btn--red" href="works.html">Горящие туры</a>
+              <button class="btn btn--blue" type="button" data-modal="contact-modal">Связаться с нами</button>
+           </div>
+        </aside>
+        <main class="main">
+            <div class="container">
+                
+                <!-- post -->
+                <div class="post">
+                
+                   <div class="post__actions">
+                      <a class="post__actions_link" href="index.html">вернуться назад</a>
+                      <a class="post__actions_link" href="#">
+                         поделиться<img src="assets/images/share.svg" alt="поделиться">
+                      </a> 
+                   </div>
+                
+                   <div class="post__header">
+                      <h1 class="post__title post__title--mb">
+                         Горнолыжные курорты Словении
+                      </h1>
+                
+                      <ul class="post__data">
+                         <li class="post__data-item">
+                            <time datetime="2021-03-13 20:00">
+                               25.11.2021
+                            </time>
+                         </li>
+                      </ul>
+                   </div>
+                
+                   <div class="post__content post__content--mb0">
+                      <div class="post__text">
+                
+                         <p>
+                            Словения — государство, расположенное между Италией, Хорватией и Венгрией. Венецианский залив Адриатического моря омывает небольшую часть ее территории. Столицей государства является город Любляна.
+                            <br><br>
+                            В Словении много де ревьев и зелени, поэтому воздух здесь невероятно чистый. Площадь целого государства равна площади Московской области, но в нем всегда гармонично сочетались традиции и особенности Альпийского, Центрально-европейского и Средиземноморского регионов.
+                         </p>
+                   
+                         <p>
+                            <img src="assets/images/slovenia.jpg" alt="">
+                            Словения зимой: сказочное озеро Блед
+                         </p>   
+                
+                         <p>
+                            Европейские туристы часто ездят в сюда на зимний отдых. Для большинства же российских знатоков горнолыжного экстрима Словения — абсолютно неизведанный полигон. Однако ее смело можно называть тихим раем для любителей покататься на лыжах с высоких склонов.
+                            <br><br>
+                            Горнолыжные курорты Словении не столь масштабны, как австрийские, швейцарские и французские, но организация у них во многом даже лучше. Здесь крайне редко бывают большие очереди на трассах. Все организовано так, чтобы ничто не отвлекало гостя от самого главного – горных лыж, живописных вершин и пейзажей.
+                            <br><br>
+                            Ежегодно сезон открыт с декабря по март. Здесь действуют лыжные школы, детские сады для маленьких путешественников и многочисленные подъемники и прокаты. В ряде мест увлечение зимними видами спорта можно приятно совмещать с процедурами в спа–салонах. Во время отдыха также стоит посетить достопримечательности или отведать в ресторане словенскую кухню и местное вино.
+                         </p>
+                
+                         <p>
+                            <img src="assets/images/slovenia_2.jpg" alt="">
+                            Подъемники на горнолыжных курортах Словении
+                         </p> 
+                
+                         <h2 class="post__title post__title--mb">
+                            Бовец
+                         </h2>
+                         
+                         <p>
+                            Стандартный альпийский курорт, история которого насчитывает более 800 лет. Здесь есть магазины, банки, рестораны и бары. Летом можно прокатиться на лошадях, полетать на параплане и сплавиться по горной реке. Одним словом: скучать здесь не придется.
+                            <br><br>
+                            Трассы на курорте располагаются на высоте более 2000 м над уровнем моря, неподалеку от границ Австрии и Италии. Всего их 17, длина самой большой — 8500 м. К трассам идет канатная дорога с итальянской стороны. Расстояние от отеля до нее около 2 км. 
+                         </p>
+                
+                         <p>
+                            <img src="assets/images/slovenia_3.jpg" alt="">
+                            Бовец — альпийский курорт, где активный отдых можно сочетать с достопримечательностями
+                         </p> 
+                
+                         <p>
+                            <span class="fr-video">
+                            <iframe src="https://www.youtube.com/embed/9rFTTx6Z1PU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"       allowfullscreen></iframe>
+                            </span>
+                         </p>
+                
+                      </div> <!-- /.post__text -->
+                
+                      <div class="related">
+                         <h2 class="related__title">Интересно почитать</h2>
+                
+                         <ul class="related__list">
+                            <li class="related__list-item">
+                               <h3 class="related__list-title">
+                                  <a href="https://altay-green.ru/puteshestviya-kak-vdohnovenie-tvorcheskiy-konkurs/">«Путешествия, как вдохновение»: творческий конкурс</a>
+                               </h3>
+                               <time class="related__list-date" datetime="2021-05-20 20:00">10.10.2021</time>
+                            </li>
+                
+                            <li class="related__list-item">
+                               <h3 class="related__list-title">
+                                  <a href="https://vc.ru/life/105026-kak-vdohnovlyayut-puteshestviya">Как вдохновляют путешествия</a>
+                               </h3>
+                               <time class="related__list-date" datetime="2021-05-20 20:00">27.09.2021</time>
+                            </li>
+                
+                            <li class="related__list-item">
+                               <h3 class="related__list-title">
+                                  <a href="https://livingintravels.com/12-prichin-pochemu-vam-nuzhno-puteshestvovat/">12 ПРИЧИН ПОЧЕМУ ВАМ НУЖНО ПУТЕШЕСТВОВАТЬ</a>
+                               </h3>
+                               <time class="related__list-date" datetime="2021-05-20 20:00">13.11.2021</time>
+                            </li>
+                
+                            <li class="related__list-item">
+                               <h3 class="related__list-title">
+                                  <a href="https://www.gudauri.ru/about_gudauri/">Горнолыжный курорт Гудаури</a>
+                               </h3>
+                               <time class="related__list-date" datetime="2021-05-20 20:00">20.11.2021</time>
+                            </li>
+                         </ul>
+                      </div> <!-- /.related -->
+                
+                      <div class="comments-form">
+                         <div class="comments-form__title">Обсуждение</div>
+                         <form class="form" action="/" method="POST">
+                            <div class="form__group">
+                               <textarea class="form__control form__control--textarea" name="comment-text" placeholder="Текст комментария" data-autoresize></textarea>
+                               <span class="form__divider"></span>
+                            </div>
+                            <button class="btn btn--blue btn--comment" type="submit">Отправить</button>
+                         </form>
+                      </div>
+                
+                      <ul class="comments">
+                         <li class="comments__item">
+                            <div class="comments__header">
+                               <img class="comments__avatar" src="assets/images/Avatar_Deceit.jpg" alt="avatar">
+                
+                               <div class="comments__author">
+                                  <div class="comments__name">Evgeniy S.</div>
+                                   <time class="comments__date" datetime="2021-05-11 20:00">1 неделю назад</time>
+                               </div>
+                            </div>
+                               
+                            <div class="comments__text">
+                               Очень все хорошо! катаемся! вкусно! приятные люди вокруг! приезжайте ! очень рекомендуем !) всем кто любит горы, снег, вино и вкусную еду! надо здесь побывать не один раз!
+                            </div>
+                
+                            <button class="comments__reply" type="button">
+                               ответить
+                            </button>
+                            
+                            <!-- new comment вложенный-->
+                            <ul class="comments">
+                               <li class="comments__item">
+                                  <div class="comments__header">
+                                     <img class="comments__avatar" src="assets/images/avatar.jpg" alt="avatar">
+                      
+                                     <div class="comments__author">
+                                        <div class="comments__name">Anastasia</div>
+                                         <time class="comments__date" datetime="2021-05-11 20:00">1 неделю назад</time>
+                                     </div>
+                                  </div>
+                                     
+                                  <div class="comments__text">
+                                     Полностью согласна. Всегда очень много снега. Отличные трассы для катания. Так же для новичков очень хорошие спуски, чтоб научиться кататься. Прекрасные пейзажи и много национального колорита и гостеприимства.
+                                  </div>
+                      
+                                  <button class="comments__reply" type="button">
+                                     ответить
+                                  </button>
+                               </li>
+                            </ul> <!-- /.new comment вложенный-->
+                
+                         </li>
+                      </ul>
+                
+                   </div>  <!-- /.post__content -->
+                </div> <!-- /.post -->
+            </div>
+        </main>
+    </div>
+
+
+    <div class="modal" id="story-modal">
+       <div class="modal__content modal__content--story">
+          <video class="modal__video" src="" poster="https://placehold.it/430x590"></video>
+       </div>
+    </div>    <div class="modal" id="contact-modal">
+       <div class="modal__content">
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+    
+          <form class="form" action="/" method="POST">
+             
+             <div class="form__group form__group--mb">
+                <input class="form__control" type="text" placeholder="Ваш e-mail" value="">
+                <span class="form__divider"></span>
+             </div>
+       
+             <!-- <div class="form__group form__group--mb">
+                <input class="form__control" type="email" placeholder="Ваш пароль" value="">
+                <span class="form__divider"></span>
+             </div> -->
+    
+             <div class="form__group form__group--mb">
+                <textarea class="form__control form__control--textarea" name="send text" placeholder="Текст сообщения"></textarea>
+                <span class="form__divider"></span>
+             </div>
+    
+             <div class="form__group">
+                <button class="btn btn--blue btn--comment btn--mb" type="submit">Отправить</button>
+             </div>
+          </form>
+    
+          <ul class="modal__footer">
+             <li class="modal__link">
+                e-mail: <a href="mailto:info@mywebsite.ru">borderless_world@gmail.com</a>
+             </li>
+             <li class="modal__link">
+                тел: <a href="tel: +380998887777">+380-99-888-77-77</a>
+             </li>
+          </ul>
+       </div> <!-- /.modal__content -->
+    </div> <!-- /.modal -->    <div class="modal" id="contact-modal-works">
+       <div class="modal__content">
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+    
+          <form class="form" action="/" method="POST">
+             
+             <div class="form__group form__group--mb">
+                <input class="form__control" type="text" placeholder="Ваш e-mail" value="">
+                <span class="form__divider"></span>
+             </div>
+       
+             <!-- <div class="form__group form__group--mb">
+                <input class="form__control" type="email" placeholder="Ваш пароль" value="">
+                <span class="form__divider"></span>
+             </div> -->
+    
+             <div class="form__group form__group--mb">
+                <textarea class="form__control form__control--textarea" name="send text" placeholder="Ваш номер телефона"></textarea>
+                <span class="form__divider"></span>
+             </div>
+    
+             <div class="form__group">
+                <button class="btn btn--blue btn--comment btn--mb" type="submit">Отправить</button>
+             </div>
+          </form>
+    
+          <ul class="modal__footer">
+             <li class="modal__link">
+                e-mail: <a href="mailto:info@mywebsite.ru">borderless_world@gmail.com</a>
+             </li>
+             <li class="modal__link">
+                тел: <a href="tel: +94323285622">+380-99-888-77-77</a>
+             </li>
+          </ul>
+       </div> <!-- /.modal__content -->
+    </div> <!-- /.modal -->    <div class="modal">
+       <div class="modal__content modal__content--share">
+    
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+       
+          <!-- share styles in modal -->
+          <ul class="share">
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/facebook.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/twitter.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/vk.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/copy.svg" alt="share-social">
+                </a>
+             </li>
+          </ul>
+    
+       </div> <!-- modal__content -->
+    </div> <!-- /.modal -->
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

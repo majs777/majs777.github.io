@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>post</title>
+</head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QPFTEX1NBD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QPFTEX1NBD');
+</script>
+
+<body>  <!-- class="show-sidebar" class="no-scroll" -->
+<!-- при открытии модального окна, убрать скролл -->
+
+    <div class="page" id="page">
+        <header class="header">
+           <!-- left -->
+           <div class="header__left">
+              <nav class="nav">
+                 <!-- nav list -->
+                 <ul class="nav__list">
+                    <li class="nav__item"> 
+                       <a href="index.html" class="nav__link">Главная</a>  
+                    </li>
+        
+                    <li class="nav__item"> <!-- родитель эл. ul -->
+        
+                       <!-- поBEM  nav__link--has-subnav-->
+                       <a href="#" class="nav__link has-subnav">Статьи</a>  
+                       
+                       <!-- выпадающее менУ -->
+                       <ul class="subnav">
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория Категория Категория 1</a>
+                          </li>
+        
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория 2</a>
+                          </li>
+        
+                          <li class="subnav__item subnav__item--border">
+                          <!-- пример модификатора -->
+                             <a class="subnav__link" href="#">Категория 3</a>
+                          </li>
+                       </ul>
+        
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="about_company.html" class="nav__link">О компании</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="advertising.html" class="nav__link">Реклама</a>  
+                    </li>
+                 </ul>
+              </nav>
+        
+              <!-- burger -->
+                 <button class="burger" id="burger" type="button">
+                    <span></span>
+                 </button>
+              <!-- /.burger -->
+           </div>
+        
+           <!-- right -->
+           <div class="header__right">
+              <nav class="nav">
+                 <ul class="nav__list">
+                    <li class="nav__item">
+                       <a href="profile.html" class="nav__link">Профиль</a>
+                    </li>
+                 </ul>
+              </nav>
+        
+              <form class="search" action="search.html" method="GET">
+                 <input class="search__input" type="text" placeholder="Поиск по сайту">
+              </form>
+           </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+           <div class="sidebar__header">
+              <img src="./assets/images/background_2.jpg" alt="">
+           </div>
+        
+           <!--  sidebar__content  -->
+           <div class="sidebar__content">
+              <!--  profile  -->
+              <div class="profile">
+                 <img class="profile__avatar" src="./assets/images/logo.jpg" alt="">
+                 <div class="profile__header">
+                    <div class="profile__name">Шальная Императрица</div>
+                    <div class="profile__prof">туристическое агенство</div>   
+                 </div>
+        
+                 <ul class="social">
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/instagram .svg" alt="instagram">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/pinterest.svg" alt="instagram">
+                       </a>
+                    </li>
+        
+                    <li class="social__item">
+                       <a class="social__link" href="#" target="_blank"> <!-- открытие в новом окне -->
+                          <img src="./assets/images/social/vk.svg" alt="instagram">
+                       </a>
+                    </li>
+                 </ul>
+        
+                 <div class="profile__text">
+                    <p>Путешествия меняют нас, помогают нам расти и развиваться. Путешествия – это лучшее образование современного мира!</p>
+                 </div>
+              </div>   <!-- /.profile -->
+        
+              <!-- mobile-nav -->
+              <nav class="nav nav--mobile">
+                 <!-- nav list -->
+                 <ul class="nav__list">
+                    <li class="nav__item"> 
+                       <a href="index.html" class="nav__link">Главная</a>  
+                    </li>
+        
+                    <li class="nav__item"> <!-- родитель эл. ul -->
+        
+                       <!-- поBEM  nav__link--has-subnav-->
+                       <a href="#" class="nav__link has-subnav">Статьи</a>  
+                       
+                       <!-- выпадающее менУ -->
+                       <ul class="subnav">
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория Категория Категория 1</a>
+                          </li>
+        
+                          <li class="subnav__item">
+                             <a class="subnav__link" href="#">Категория 2</a>
+                          </li>
+        
+                          <li class="subnav__item subnav__item--border">
+                          <!-- пример модификатора -->
+                             <a class="subnav__link" href="#">Категория 3</a>
+                          </li>
+                       </ul>
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="about_company.html" class="nav__link">О компании</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="advertising.html" class="nav__link">Реклама</a>  
+                    </li>
+        
+                    <li class="nav__item">
+                       <a href="profile.html" class="nav__link">Профиль</a>
+                    </li>
+                 </ul>
+              </nav>
+              <!-- /.mobile-nav -->
+           </div>   <!-- /.sidebar__content -->
+        
+           <!--  sidebar__footer  -->
+           <div class="sidebar__footer">
+              <a class="btn btn--red" href="works.html">Горящие туры</a>
+              <button class="btn btn--blue" type="button" data-modal="contact-modal">Связаться с нами</button>
+           </div>
+        </aside>
+        <main class="main">
+            <div class="container">
+                
+                <!-- post -->
+                <div class="post">
+                
+                   <div class="post__actions">
+                      <a class="post__actions_link" href="index.html">вернуться назад</a>
+                      <a class="post__actions_link" href="#">
+                         поделиться<img src="assets/images/share.svg" alt="поделиться">
+                      </a> 
+                   </div>
+                
+                   <div class="post__header">
+                      <h1 class="post__title post__title--mb">
+                         Центральный офис "Шальная Императрица"
+                      </h1>
+                
+                   </div>
+                
+                   <div class="post__content post__content--mb0">
+                      <div class="post__text">
+                
+                         <p>
+                            125167, г. Киев, ул. Викторенко, д. 5, стр.1, БЦ «Виктори-плаза».
+                            Для прохода не забудьте, пожалуйста, паспорт или другое удостоверение личности с фотографией.
+                         </p>
+                
+                         <p>
+                            ✉ Пишите на fs@tui.com, если вам есть, что сказать про работу сайта.
+                         </p>
+                         <p>
+                            🔥 Здесь можно высказаться по поводу работы компании Шальная Императрица. 
+                         </p>
+                
+                         <p>
+                            🚀 Пресс-офис: pr@tui.com
+                         </p>
+                
+                         <p>
+                            ✆ +380 (98) 926-45-42 доб. 5756, 5304 <br><br>
+                            ✆ +380 (67) 155-15-99 (только для обращений СМИ)
+                         </p>
+                         
+                         <p>
+                            🌟 Telegram-канал для СМИ @chop_choop
+                         </p>
+                      </div>
+                
+                   </div>  <!-- /.post__content -->
+                </div> <!-- /.post -->
+            </div>
+        </main>
+    </div>
+
+
+    <div class="modal" id="story-modal">
+       <div class="modal__content modal__content--story">
+          <video class="modal__video" src="" poster="https://placehold.it/430x590"></video>
+       </div>
+    </div>    <div class="modal" id="contact-modal">
+       <div class="modal__content">
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+    
+          <form class="form" action="/" method="POST">
+             
+             <div class="form__group form__group--mb">
+                <input class="form__control" type="text" placeholder="Ваш e-mail" value="">
+                <span class="form__divider"></span>
+             </div>
+       
+             <!-- <div class="form__group form__group--mb">
+                <input class="form__control" type="email" placeholder="Ваш пароль" value="">
+                <span class="form__divider"></span>
+             </div> -->
+    
+             <div class="form__group form__group--mb">
+                <textarea class="form__control form__control--textarea" name="send text" placeholder="Текст сообщения"></textarea>
+                <span class="form__divider"></span>
+             </div>
+    
+             <div class="form__group">
+                <button class="btn btn--blue btn--comment btn--mb" type="submit">Отправить</button>
+             </div>
+          </form>
+    
+          <ul class="modal__footer">
+             <li class="modal__link">
+                e-mail: <a href="mailto:info@mywebsite.ru">borderless_world@gmail.com</a>
+             </li>
+             <li class="modal__link">
+                тел: <a href="tel: +380998887777">+380-99-888-77-77</a>
+             </li>
+          </ul>
+       </div> <!-- /.modal__content -->
+    </div> <!-- /.modal -->    <div class="modal" id="contact-modal-works">
+       <div class="modal__content">
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+    
+          <form class="form" action="/" method="POST">
+             
+             <div class="form__group form__group--mb">
+                <input class="form__control" type="text" placeholder="Ваш e-mail" value="">
+                <span class="form__divider"></span>
+             </div>
+       
+             <!-- <div class="form__group form__group--mb">
+                <input class="form__control" type="email" placeholder="Ваш пароль" value="">
+                <span class="form__divider"></span>
+             </div> -->
+    
+             <div class="form__group form__group--mb">
+                <textarea class="form__control form__control--textarea" name="send text" placeholder="Ваш номер телефона"></textarea>
+                <span class="form__divider"></span>
+             </div>
+    
+             <div class="form__group">
+                <button class="btn btn--blue btn--comment btn--mb" type="submit">Отправить</button>
+             </div>
+          </form>
+    
+          <ul class="modal__footer">
+             <li class="modal__link">
+                e-mail: <a href="mailto:info@mywebsite.ru">borderless_world@gmail.com</a>
+             </li>
+             <li class="modal__link">
+                тел: <a href="tel: +94323285622">+380-99-888-77-77</a>
+             </li>
+          </ul>
+       </div> <!-- /.modal__content -->
+    </div> <!-- /.modal -->    <div class="modal">
+       <div class="modal__content modal__content--share">
+    
+          <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+          </button>
+       
+          <!-- share styles in modal -->
+          <ul class="share">
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/facebook.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/twitter.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/vk.svg" alt="share-social">
+                </a>
+             </li>
+       
+             <li class="share__item">
+                <a class="share__link" href="#">
+                   <img src="assets/images/share/copy.svg" alt="share-social">
+                </a>
+             </li>
+          </ul>
+    
+       </div> <!-- modal__content -->
+    </div> <!-- /.modal -->
+    <!-- JS -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
